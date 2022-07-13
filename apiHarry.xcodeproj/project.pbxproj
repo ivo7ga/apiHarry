@@ -16,6 +16,12 @@
 		2677D3C427D8B5CC00FDB3E1 /* apiHarryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3C327D8B5CC00FDB3E1 /* apiHarryTests.swift */; };
 		2677D3CE27D8B5CC00FDB3E1 /* apiHarryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3CD27D8B5CC00FDB3E1 /* apiHarryUITests.swift */; };
 		2677D3D027D8B5CC00FDB3E1 /* apiHarryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3CF27D8B5CC00FDB3E1 /* apiHarryUITestsLaunchTests.swift */; };
+		2677D3DF27D8B6FD00FDB3E1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3DE27D8B6FD00FDB3E1 /* Mappable.swift */; };
+		2677D3E327D8B9AA00FDB3E1 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3E227D8B9AA00FDB3E1 /* Connection.swift */; };
+		2677D3E527D8C47000FDB3E1 /* MiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3E427D8C47000FDB3E1 /* MiTableViewController.swift */; };
+		2677D3E727D8C49500FDB3E1 /* MiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3E627D8C49500FDB3E1 /* MiTableViewCell.swift */; };
+		2677D3E927D8DD2800FDB3E1 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3E827D8DD2800FDB3E1 /* Pokemon.swift */; };
+		2677D3EB27D8F40100FDB3E1 /* MiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3EA27D8F40100FDB3E1 /* MiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		2677D3C927D8B5CC00FDB3E1 /* apiHarryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiHarryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2677D3CD27D8B5CC00FDB3E1 /* apiHarryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHarryUITests.swift; sourceTree = "<group>"; };
 		2677D3CF27D8B5CC00FDB3E1 /* apiHarryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHarryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2677D3DE27D8B6FD00FDB3E1 /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		2677D3E227D8B9AA00FDB3E1 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		2677D3E427D8C47000FDB3E1 /* MiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiTableViewController.swift; sourceTree = "<group>"; };
+		2677D3E627D8C49500FDB3E1 /* MiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiTableViewCell.swift; sourceTree = "<group>"; };
+		2677D3E827D8DD2800FDB3E1 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		2677D3EA27D8F40100FDB3E1 /* MiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				2677D3B527D8B5CB00FDB3E1 /* Assets.xcassets */,
 				2677D3B727D8B5CB00FDB3E1 /* LaunchScreen.storyboard */,
 				2677D3BA27D8B5CB00FDB3E1 /* Info.plist */,
+				2677D3DE27D8B6FD00FDB3E1 /* Mappable.swift */,
+				2677D3E227D8B9AA00FDB3E1 /* Connection.swift */,
+				2677D3E427D8C47000FDB3E1 /* MiTableViewController.swift */,
+				2677D3E627D8C49500FDB3E1 /* MiTableViewCell.swift */,
+				2677D3E827D8DD2800FDB3E1 /* Pokemon.swift */,
+				2677D3EA27D8F40100FDB3E1 /* MiViewController.swift */,
 			);
 			path = apiHarry;
 			sourceTree = "<group>";
@@ -258,9 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2677D3EB27D8F40100FDB3E1 /* MiViewController.swift in Sources */,
 				2677D3B127D8B5C900FDB3E1 /* ViewController.swift in Sources */,
+				2677D3DF27D8B6FD00FDB3E1 /* Mappable.swift in Sources */,
+				2677D3E527D8C47000FDB3E1 /* MiTableViewController.swift in Sources */,
 				2677D3AD27D8B5C900FDB3E1 /* AppDelegate.swift in Sources */,
+				2677D3E927D8DD2800FDB3E1 /* Pokemon.swift in Sources */,
 				2677D3AF27D8B5C900FDB3E1 /* SceneDelegate.swift in Sources */,
+				2677D3E327D8B9AA00FDB3E1 /* Connection.swift in Sources */,
+				2677D3E727D8C49500FDB3E1 /* MiTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +469,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +498,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
